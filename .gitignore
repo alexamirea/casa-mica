@@ -21,4 +21,8 @@ node_modules/
 # ignore log files and databases
 *.log
 *.sql
+<<<<<<< HEAD
 *.sqlite
+=======
+*.sqlite
+>>>>>>> 2a2aee3521eb2edf21dac8bc197a8ab8a6666403
