@@ -1,0 +1,249 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.quick-menu {
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.quick-menu a {
+    color: #000;
+    font-size: 15px;
+}
+
+.quick-menu a i {
+    padding: 0 6px 0 6px;
+    color: #F0D824;
+}
+
+.navbar {
+    background-color: #94C461;
+    border-bottom: 3px solid #F0D824;
+    padding: 0 !important;
+}
+
+.navbar-nav a,
+.navbar-nav a:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-item:hover {
+    background: #F0D824;
+    -webkit-transition: ease-in 150ms;
+    -moz-transition: ease-in 150ms;
+    -ms-transition: ease-in 150ms;
+    -o-transition: ease-in 150ms;
+    transition: ease-in 150ms;
+}
+
+.navbar-nav .nav-item a {
+    padding: 15px 25px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+}
+
+.brand img {
+    height: 150px;
+    margin: 5px 0 4px 0;
+    width: auto;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.slick-prev.slick-arrow {
+    left: 25px;
+    z-index: 1;
+}
+
+.slick-next.slick-arrow {
+    right: 25px;
+    z-index: 1;
+}
+
+ul.timetable {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    color: #fff;
+    /*text-align: left;*/
+}
+
+.timetable-container h5 {
+    /*text-align: left;*/
+}
+
+.timetable-container p {
+    /*text-align: left;*/
+    color: #fff;
+}
+
+.footer {
+    background-color: #94C461;
+    border-top: 3px solid #F0D824;
+    padding: 25px 0;
+}
+
+.footer h5 {
+    color: #fff;
+}
+
+ul.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-icons li {
+    display: inline-block;
+}
+
+ul.social-icons .fab.fa-facebook-f {
+    font-size: 31px;
+    color: #fff;
+}
+
+ul.social-icons .fab.fa-instagram {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+/*.facilities {*/
+/*background-color: rgb(248, 248, 248);*/
+/*}*/
+
+.facilities h5 {
+    color: #555;
+}
+
+.facilities-badge img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.accepted-payment {
+    background: #eee;
+}
+
+.accepted-payment div img {
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.accepted-payment h5 {
+    color: #555;
+}
+
+.accepted-payment .payment-card {
+    border-radius: 6px;
+}
+
+.accepted-payment .payment-type-title {
+    margin-bottom: 0;
+}
+
+.accepted-payment .payment-type-subtitle {
+    font-size: 12px;
+}
+
+.accepted-payment-top {
+    max-width: 70vw;
+}
+
+.accepted-payment-bottom {
+    max-width: 55vw;
+}
+
+/*.accepted-payment div img {*/
+/*max-width: 150px;*/
+/*}*/
+
+#home-map {
+    width: 100%;
+}
+
+.map-container {
+    padding-left: 0;
+}
+
+.contact-us p {
+    color: #fff;
+}
+
+.badges a img {
+    height: 30px;
+    padding: 0 13px;
+}
+
+.divider {
+    height: 3px;
+    display: block;
+    background-color: #F0D824;
+    margin: 0.6rem auto 0.6rem auto;
+    max-width: 60px;
+}
+
+/* Front-page slider */
+
+.slick-slide {
+    width: 100%;
+}
+
+.slick-slide:focus {
+    outline: none !important;
+}
+
+/* Booking form */
+
+#booking_form label,
+#booking_form input {
+    display: block;
+}
+
+#booking_form label [type=checkbox] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.calendar-input-in + i,
+.calendar-input-out + i {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+}
+
+.slick-carousel {
+    border-bottom: 3px solid #F0D824;
+}
+
+.extra-bed {
+    margin-top: 28px;
+}
