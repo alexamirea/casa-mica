@@ -10,10 +10,29 @@
 get_header() ?>
 
     <section class="main">
-        <div class="slick-carousel">
-            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri() ?>/resources/rsz_slider-1-1.jpg" alt="">
-            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri() ?>/resources/slider-1-2.jpg" alt="">
-            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri() ?>/resources/slider-1-3.jpg" alt="">
+        <div class="container-fluid frontpage-carousel">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="slick-carousel-1">
+                        <img class="img-fluid"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/resources/rsz_slider-1-1.jpg" alt="">
+                        <img class="img-fluid"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/resources/slider-1-2.jpg" alt="">
+                        <img class="img-fluid"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/resources/slider-1-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="slick-carousel-2">
+                        <img class="img-fluid"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/resources/rsz_slider-1-1.jpg" alt="">
+                        <img class="img-fluid"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/resources/slider-1-2.jpg" alt="">
+                        <img class="img-fluid"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/resources/slider-1-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <section class="about-us pt-5 pb-5">
             <div class="container">
@@ -84,23 +103,27 @@ get_header() ?>
             <div class="container">
                 <div class="row accepted-payment-top m-auto">
                     <div class="col-12 text-center mt-2 mb-5">
-                        <h5 class="text-uppercase">Acceptăm toate tipurile de <strong>tichete de vacanță</strong> și <strong>carduri de vacanță</strong></h5>
+                        <h5 class="text-uppercase">Acceptăm toate tipurile de <strong>tichete de vacanță</strong> și
+                            <strong>carduri de vacanță</strong></h5>
                         <div class="divider"></div>
                     </div>
                     <div class="col-4 text-center">
                         <img class="img-fluid mb-2"
-                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/edenred-tichet-89.png" alt=""/>
+                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/edenred-tichet-89.png"
+                             alt=""/>
                         <p class="payment-type-title"><strong>Edenred</strong></p>
                         <p class="payment-type-subtitle">Voucher de vacanță</p>
                     </div>
                     <div class="col-4 text-center">
-                        <img class="img-fluid mb-2" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/sodexo-tichet-89.png"
+                        <img class="img-fluid mb-2"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/sodexo-tichet-89.png"
                              alt=""/>
                         <p class="payment-type-title"><strong>Sodexo</strong></p>
                         <p class="payment-type-subtitle">Voucher de vacanță</p>
                     </div>
                     <div class="col-4 text-center">
-                        <img class="img-fluid mb-2" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/up-tichet-89.png"
+                        <img class="img-fluid mb-2"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/up-tichet-89.png"
                              alt=""/>
                         <p class="payment-type-title"><strong>Up</strong></p>
                         <p class="payment-type-subtitle">Voucher de vacanță</p>
@@ -114,13 +137,15 @@ get_header() ?>
                         <p class="payment-type-subtitle">Card de vacanță</p>
                     </div>
                     <div class="col-4 text-center">
-                        <img class="img-fluid payment-card mb-2" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/sodexo-card-65.png"
+                        <img class="img-fluid payment-card mb-2"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/sodexo-card-65.png"
                              alt=""/>
                         <p class="payment-type-title"><strong>Sodexo</strong></p>
                         <p class="payment-type-subtitle">Card de vacanță</p>
                     </div>
                     <div class="col-4 text-center">
-                        <img class="img-fluid payment-card mb-2" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/up-card-65.png"
+                        <img class="img-fluid payment-card mb-2"
+                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/up-card-65.png"
                              alt=""/>
                         <p class="payment-type-title"><strong>Up</strong></p>
                         <p class="payment-type-subtitle">Card de vacanță</p>
@@ -152,7 +177,7 @@ get_header() ?>
                                 <li>Magistrala 1 - dinspre Piata Unirii</li>
                                 <li>Magistrala 3 - dinspre Gara de Nord – Pta Victoriei – Stefan Cel Mare</li>
                             </ul>
-                            <p>cu masina: dinspre centru, din Piata Unirii direct  pe cheiul Dambovitei;</p>
+                            <p>cu masina: dinspre centru, din Piata Unirii direct pe cheiul Dambovitei;</p>
                         </div>
                     </div>
                 </div>

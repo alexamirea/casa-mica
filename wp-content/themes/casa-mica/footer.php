@@ -10,14 +10,14 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-4 text-center timetable-container">
+            <div class="col-lg-4 col-sm-12 text-center timetable-container">
                 <h5>Program rezervari pensiune:</h5>
                 <ul class="timetable">
                     <li>10:00 – 18:00 | +40-735 02 01 10 /11</li>
                 </ul>
                 <p>info@casamica.org</p>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-lg-4 col-sm-12 text-center">
                 <h5>Urmărește-ne pe</h5>
                 <ul class="social-icons mt-3">
                     <li><a href="https://www.facebook.com/pensiunearestaurantcasamica"><i class="fab fa-facebook-f"></i></a>
@@ -25,7 +25,7 @@
                     <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
-            <div class="col-4 text-center badges">
+            <div class="col-lg-4 col-sm-12 text-center badges">
                 <h5>Ne mai găsești și aici:</h5>
                 <div class="mt-3">
                     <a href="#"><img class="img-fluid"

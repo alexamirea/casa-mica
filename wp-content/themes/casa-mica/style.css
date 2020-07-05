@@ -1,7 +1,7 @@
-html, body {
+body,
+html {
     height: 100%;
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -9,14 +9,16 @@ body {
     margin: 0;
     color: #212529;
     text-align: left;
-    background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
     display: block;
     width: 100%;
     text-align: center;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 .quick-menu {
@@ -246,4 +248,31 @@ ul.social-icons .fab.fa-instagram {
 
 .extra-bed {
     margin-top: 28px;
+}
+
+.frontpage-carousel .col-lg-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.submit-form {
+    padding: 10px 25px;
+    background: #F0D824;
+    border: 1px solid #F0D824;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Experiments */
+
+.contact-form label,
+.contact-form textarea {
+    display: block;
+}
+
+.contact-form label input,
+.contact-form textarea {
+    width: 100%;
 }
